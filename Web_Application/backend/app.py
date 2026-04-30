@@ -22,7 +22,7 @@ app = Flask(__name__)
 CORS(app)
 
 # --- Path Configurations ---
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 KERAS_MODEL_PATH = os.path.join(BASE_DIR, "Model B (Keras Tensorflow)", "keras_model_with_5k_images.h5")
 PYTORCH_MODEL_PATH = os.path.join(BASE_DIR, "Model A (MobileNet)", "mobilenet_model.pth")
 STUDENT_MODEL_PATH = os.path.join(BASE_DIR, "baseStudentModel", "student_model.h5")
