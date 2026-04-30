@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Face']
+
+roboflow:
+  workspace: 8-fingers
+  project: face-ape5v-k4kec-kxmoo-kmice-7svu9-3v8wr
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/8-fingers/face-ape5v-k4kec-kxmoo-kmice-7svu9-3v8wr/dataset/1
