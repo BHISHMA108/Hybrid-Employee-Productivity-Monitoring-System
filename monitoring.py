@@ -193,7 +193,7 @@ def monitor_activity():
         # --- 5. Draw transparent HUD ---
         draw_transparent_hud(frame, metrics, status_color, current_accuracy)
 
-        cv2.imshow("Productivity Monitor - Live HUD", frame)
+        cv2.imshow("EfficienSee - Live HUD", frame)
         last_check_time = current_time
 
         # ESC to quit
@@ -230,7 +230,7 @@ def status():
 
 if __name__ == "__main__":
     print("\n" + "=" * 50)
-    print("  Productivity Monitor - Live Monitoring HUD")
+    print("  EfficienSee - Live Monitoring HUD")
     print("=" * 50)
     print("  [OK] Model loaded. Starting monitoring...")
     print("  [*]  Webcam will open automatically.")
